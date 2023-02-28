@@ -1,0 +1,3 @@
+npm install express
+npm install nodemon
+"start": "nodemon./bin/www" ใส่ใน scr

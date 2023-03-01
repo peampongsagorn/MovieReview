@@ -1,9 +1,9 @@
 const express = require('express')
 const app = express()
+const router = require('./myRouter')
 
-app.use((req,res)=>{
-    res.send("Hello isus")
-})
+
+app.use(router)
 
 app.listen(3000,() => {
     console.log('start server')

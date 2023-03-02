@@ -27,12 +27,14 @@ nav {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
+    padding-left: 50px;
 }
   
 .nav-links {  
     display: flex;
     justify-content:space-between;
     width: 15%;
+    padding-right: 50px;
 }
 .nav-links a:hover:not(.active) {
     background-color: lightseagreen;
@@ -41,3 +43,4 @@ nav {
 .nav-links li a.active {
     background-color: #4caf50;
 }
+

@@ -53,8 +53,6 @@ function ComponentContent() {
         </nav>
         
       </BrowserRouter>
-
-      <h1>Hello</h1>
     </>
   )
 }

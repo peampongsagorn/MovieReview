@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 //import './App.css';
-import ComponentHome from "./ComponentHome/ComponentHome";
+import ComponentRomantic from "./ComponentTitle/ComponentRomantic/ComponentRomantic";
 /*function App() {
   return (
     <div className="App">
@@ -25,7 +25,7 @@ import ComponentHome from "./ComponentHome/ComponentHome";
 function App() {
   return (
     <>
-      <ComponentHome/>
+      <ComponentRomantic/>
     </>
   );
 }

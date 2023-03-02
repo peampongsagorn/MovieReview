@@ -29,7 +29,7 @@ nav {
     font-size: 20px;
 }
   
-.nav-links {
+.nav-links {  
     display: flex;
     justify-content:space-between;
     width: 15%;

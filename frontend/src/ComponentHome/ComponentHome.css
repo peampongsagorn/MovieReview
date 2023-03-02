@@ -8,10 +8,13 @@ body{
 .nav-active{
     color:gray;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .NavTitle{
     background-color: rgb(10, 9, 9);
+    font-weight: bold;
+    color:aliceblue;
 }
 
  .buttonlink{

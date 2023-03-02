@@ -36,7 +36,7 @@
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 .img{
-    height: 490px;
+    height: 480px;
     background: rgb(152, 150, 150);
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -50,7 +50,11 @@
 .content{
     text-align: center;
     border-bottom: 1px solid;
+
+    height: 90px;
+
     height: 100px;
+
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -71,7 +75,7 @@
     color:rgb(54, 53, 51);
 }
 
-/* .footer{
+ .footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,4 +101,4 @@
 
 .ft-r{
     margin-right: 2rem;
-} */
+} 

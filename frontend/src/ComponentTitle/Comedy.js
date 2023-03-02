@@ -19,7 +19,7 @@ function Comedy() {
             <div class="main">
                 <div class="tag">Travel</div>
                 <div class="img">
-                    {/* <img src="pic1.jpg" alt=""> */}
+                    <img src="https://upload.wikimedia.org/wikipedia/th/1/1f/First_Love.jpg" alt=""/>
                 </div>
                 <div class="content">
                     <div class="center">
@@ -41,7 +41,7 @@ function Comedy() {
             <div class="main">
                 <div class="tag">Travel</div>
                 <div class="img">
-                    {/* <img src="pic1.jpg" alt=""> */}
+                    <img src="pic1.jpg" alt=""/>
                 </div>
                 <div class="content">
                     <div class="center">

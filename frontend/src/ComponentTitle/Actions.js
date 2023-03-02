@@ -19,7 +19,7 @@ function Actions() {
         <div class="item">
             <div class="main">
                 <div class="img">
-                    {/* <img src="pic1.jpg" alt=""> */}
+                         <img src="https://i.ebayimg.com/images/g/A1cAAOSwcsljdyCI/s-l1600.jpg" alt=""/> 
                 </div>
                 <div class="content">
                     <div class="center">
@@ -32,7 +32,7 @@ function Actions() {
         <div class="item">
             <div class="main">
                 <div class="img">
-                    {/* <img src="pic1.jpg" alt=""> */}
+                    <img src="https://upload.wikimedia.org/wikipedia/th/4/4b/%E0%B9%83%E0%B8%9A%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A2%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B9%8C_%E0%B9%80%E0%B8%A3%E0%B9%87%E0%B8%A7..%E0%B9%81%E0%B8%A3%E0%B8%87%E0%B8%97%E0%B8%B0%E0%B8%A5%E0%B8%B8%E0%B8%99%E0%B8%A3%E0%B8%81_9.jpg" alt=""/> 
                 </div>
                 <div class="content">
                     <div class="center">
@@ -45,7 +45,7 @@ function Actions() {
             <div class="main">
     
                 <div class="img">
-                    {/* <img src="pic1.jpg" alt=""> */}
+                      <img src="https://upload.wikimedia.org/wikipedia/th/thumb/1/1f/Live_Free_or_Die_Hard_poster.jpg/800px-Live_Free_or_Die_Hard_poster.jpg" alt=""/> 
                 </div>
                 <div class="content">
                     <div class="center">
@@ -60,7 +60,7 @@ function Actions() {
         <div class="item">
             <div class="main">
                 <div class="img">
-                    {/* <img src="pic1.jpg" alt=""> */}
+                     <img src="https://www.nangdee.com/photoThumbnail/items/m3169_LFI74X0Thu43954.jpg" alt=""/> 
                 </div>
                 <div class="content">
                     <div class="center">

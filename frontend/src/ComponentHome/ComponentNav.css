@@ -34,7 +34,7 @@ nav {
     display: flex;
     justify-content:space-between;
     width: 15%;
-    padding-right: 50px;
+    padding-right: 20px;
 }
 .nav-links a:hover:not(.active) {
     background-color: lightseagreen;

@@ -19,7 +19,8 @@ function ComponentContent() {
       <BrowserRouter>
         <nav>
           {/* <NavLink end to="/" className={({isActive}) => isActive? activeClassName:undefined}>Home</NavLink> */}
-          <NavLink to="/Romantic" className={({isActive}) => isActive? activeClassName:undefined}>Romantic</NavLink>
+          <button>
+          <NavLink to="/Romantic" className={({isActive}) => isActive? activeClassName:undefined}>Romantic</NavLink></button>
           <NavLink to="/Comedy" className={({isActive}) => isActive? activeClassName:undefined}>Comedy</NavLink>
           <NavLink to="/Fantasy" className={({isActive}) => isActive? activeClassName:undefined}>Fantasy</NavLink>
           <NavLink to="/Kids" className={({isActive}) => isActive? activeClassName:undefined}>Kids</NavLink>

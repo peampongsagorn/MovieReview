@@ -1,5 +1,5 @@
 import React from 'react'
-import './ComponentHome.css'
+import './ComponentNav.css'
 
 function ComponentNavbar() {
   return (

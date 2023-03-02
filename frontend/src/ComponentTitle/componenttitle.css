@@ -36,8 +36,12 @@
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 .img{
+<<<<<<< HEAD
     height: 500px;
     height: 450px;
+=======
+    height: 480px;
+>>>>>>> 4f77843ec0ed7cf8e6336a41739dfb45bff51024
     background: rgb(152, 150, 150);
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;

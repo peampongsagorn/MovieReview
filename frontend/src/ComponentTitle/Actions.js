@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link } from 'react-router-dom'
 import './componenttitle.css'
+// import Movie from '../ComponentDetail/Com';
 
 function Actions() {
   return (

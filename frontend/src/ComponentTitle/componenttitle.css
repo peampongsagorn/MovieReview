@@ -56,6 +56,8 @@
     align-items: center; */
     padding: 1rem;
     background-color: aliceblue;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .content h3{
@@ -68,7 +70,7 @@
     color:rgb(54, 53, 51);
 }
 
-.footer{
+/* .footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,4 +96,4 @@
 
 .ft-r{
     margin-right: 2rem;
-}
+} */

@@ -3,4 +3,3 @@ npm install nodemon
 "start": "nodemon./bin/www" ใส่ใน scr
 npm install mongoose
 
-สวัสดี

@@ -59,6 +59,7 @@ router.get("/action/:name",(req,res)=>{
     console.log(movie_name)
     Movie.findOne({name:movie_name}).exec((err,doc) => {
         console.log(doc)
+        
     })
     })
 

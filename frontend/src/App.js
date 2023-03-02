@@ -1,7 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+//import logo from './logo.svg';
+//import './App.css';
+import ComponentHome from "./ComponentHome/ComponentHome";
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +20,15 @@ function App() {
       </header>
     </div>
   );
+}*/
+
+function App() {
+  return (
+    <>
+      <ComponentHome/>
+    </>
+  );
 }
+
 
 export default App;

@@ -1,7 +1,6 @@
 import React from 'react'
-import {Link } from 'react-router-dom'
 
-function Drama() {
+function Home() {
   return (
     <div>
     <nav>
@@ -9,7 +8,6 @@ function Drama() {
             <h4>Movie Review</h4>
         </div>
         <ul class="nav-links">
-            <Link to="/">Back to Home</Link>
             <h3>Actions</h3>
         </ul>
     </nav>
@@ -108,4 +106,4 @@ function Drama() {
   )
 }
 
-export default Drama
+export default Home

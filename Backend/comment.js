@@ -11,17 +11,22 @@ mongoose.connect(dbUrl,{
 mongoose.set("strictQuery", true);
 
 //ออกแบบ Schema
-let movieSchema = mongoose.Schema({
+
+let commentSchema = mongoose.Schema({
     name :String,
-    description :String,
-    imagepath :String
+    ment :String
 })
 
-
 //สร้าง model
-let Movie = mongoose.model("movies",movieSchema)
 
+let Comment = mongoose.model("comments",commentSchema)
 //ส่งออก model
-module.exports = Movie
+module.exports = Comment
 
+//module.exports = Comment
+
+//ออกแบบฟังก์ชันบันทึกข้อมูล
+module.exports.saveComment=function(model,data){
+    model.save(data)
+}
 

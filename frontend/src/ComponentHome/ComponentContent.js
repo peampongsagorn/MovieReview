@@ -17,17 +17,8 @@ function ComponentContent() {
 
   return (
     <>
-        {/* <nav>
-            <div class="heading">
-                <h4>Movie Review</h4>
-            </div>
-            <ul class="nav-links">
-                <h3>Home</h3>
-            </ul>
-        </nav> */}
       <BrowserRouter>
-      <div className='route'>
-      <Routes>
+        <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/Romantic" element={<Romantic />}/>
           <Route path="/Comedy" element={<Comedy />}/>
@@ -37,7 +28,6 @@ function ComponentContent() {
           <Route path="/Actions" element={<Actions />}/>
           {/* <Route path="*" element={<Error />}/> */}
         </Routes>
-        </div>
           <nav className="NavTitle">
           <div className="buttonlink">
             <NavLink end to="/" className={({isActive}) => isActive? activeClassName:undefined}>Home</NavLink>

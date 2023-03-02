@@ -10,96 +10,59 @@ function Kids() {
         </div>
         <ul class="nav-links">
             <Link to="/">Back to Home</Link>
-            <h3>Actions</h3>
+            <h3>Kids</h3>
         </ul>
     </nav>
 
     <div class="container">
         <div class="item">
             <div class="main">
-                <div class="tag">Travel</div>
                 <div class="img">
-                    {/* <img src="pic1.jpg" alt=""> */}
+                    <img src="https://s359.kapook.com/rq/450/auto/50/pagebuilder/e3aef150-a594-42b2-ae84-d148a88c43fe.jpg" alt=""/>
                 </div>
                 <div class="content">
                     <div class="center">
-                        <h3>January 24, 2023</h3>
-                        <h1>Some Title</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni omnis amet minus dolores,
-                            iure sunt odit eius repellendus sit velit? Vitae commodi voluptatibus eveniet quibusdam
-                            neque fugit laboriosam aspernatur at?
-                        </p>
+                        <h1>Addam Family</h1>
                     </div>
-                </div>
-                <div class="footer">
-                    {/* ไว้ใส่ route */}
                 </div>
             </div>
         </div>
+
         <div class="item">
             <div class="main">
-                <div class="tag">Travel</div>
                 <div class="img">
-                    {/* <img src="pic1.jpg" alt=""> */}
+                    <img src="http://upload.wikimedia.org/wikipedia/th/thumb/d/db/Despicable_Me_Poster.jpg/250px-Despicable_Me_Poster.jpg" alt=""/>
                 </div>
                 <div class="content">
                     <div class="center">
-                        <h3>January 24, 2023</h3>
-                        <h1>Some Title</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni omnis amet minus dolores,
-                            iure sunt odit eius repellendus sit velit? Vitae commodi voluptatibus eveniet quibusdam
-                            neque fugit laboriosam aspernatur at?
-                        </p>
+                        <h1>DespicableMe</h1>
                     </div>
-                </div>
-                <div class="footer">
-                    {/* ไว้ใส่ route */}
                 </div>
             </div>
         </div>
+
         <div class="item">
             <div class="main">
-                <div class="tag">Travel</div>
                 <div class="img">
-                    {/* <img src="pic1.jpg" alt=""> */}
+                    <img src="https://upload.wikimedia.org/wikipedia/th/5/55/Big_Hero_6_poster.jpg" alt=""/>
                 </div>
                 <div class="content">
                     <div class="center">
-                        <h3>January 24, 2023</h3>
-                        <h1>Some Title</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni omnis amet minus dolores,
-                            iure sunt odit eius repellendus sit velit? Vitae commodi voluptatibus eveniet quibusdam
-                            neque fugit laboriosam aspernatur at?
-                        </p>
+                        <h1>BigHero6</h1>
                     </div>
-                </div>
-                <div class="footer">
-                    {/* ไว้ใส่ route */}
                 </div>
             </div>
         </div>
+
         <div class="item">
             <div class="main">
-                <div class="tag">Travel</div>
                 <div class="img">
-                    {/* <img src="pic1.jpg" alt=""> */}
+                    <img src="https://upload.wikimedia.org/wikipedia/th/7/76/Kungfupanda.jpg" alt=""/>
                 </div>
                 <div class="content">
                     <div class="center">
-                        <h3>January 24, 2023</h3>
-                        <h1>Some Title</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni omnis amet minus dolores,
-                            iure sunt odit eius repellendus sit velit? Vitae commodi voluptatibus eveniet quibusdam
-                            neque fugit laboriosam aspernatur at?
-                        </p>
+                        <h1>กังฟูแพนด้า</h1>
                     </div>
-                </div>
-                <div class="footer">
-                    {/* ไว้ใส่ route */}
                 </div>
             </div>
         </div>

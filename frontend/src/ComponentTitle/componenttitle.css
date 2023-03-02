@@ -37,6 +37,7 @@
 }
 .img{
     height: 500px;
+    height: 450px;
     background: rgb(152, 150, 150);
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -50,12 +51,18 @@
 .content{
     text-align: center;
     border-bottom: 1px solid;
+
     height: 90px;
+
+    height: 100px;
+
     /* display: flex;
     justify-content: center;
     align-items: center; */
     padding: 1rem;
-    background-color: aliceblue;
+    background-color:rgb(10, 111, 188);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .content h3{
@@ -63,12 +70,13 @@
 }
 .content h1{
     margin: 1rem 0;
+    font-size: 24px;
 }
 .content p{
     color:rgb(54, 53, 51);
 }
 
-.footer{
+ .footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,4 +102,4 @@
 
 .ft-r{
     margin-right: 2rem;
-}
+} 

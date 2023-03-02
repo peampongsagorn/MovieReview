@@ -18,7 +18,9 @@ function Comedy() {
         <div class="item">
             <div class="main">
                 <div class="img">
-                    <img src="https://www.nangdee.com/photoThumbnail/items/m5256_9AeZMRYWed41932.jpg" alt=""/> 
+
+                    <img src="https://www.nangdee.com/photoThumbnail/items/m5256_9AeZMRYWed41932.jpg" alt=""/>
+
                 </div>
                 <div class="content">
                     <div class="center">
@@ -33,7 +35,9 @@ function Comedy() {
             <div class="main">
               
                 <div class="img">
-                     <img src="https://upload.wikimedia.org/wikipedia/th/0/0c/7_%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B1%E0%B8%8D%E0%B8%9A%E0%B8%B2%E0%B8%99_2.jpg" alt=""/> 
+
+                     <img src="https://m.media-amazon.com/images/M/MV5BODVhODBjYjAtOGUwZS00ZDFlLWFhZTEtZTM5OGNiNDAxYTFkXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg" alt=""/> 
+
                 </div>
                 <div class="content">
                     <div class="center">

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
 import './ComponentHome.css'
 
-// import ComponentHome from './ComponentHome';
+import ComponentHome from './ComponentHome';
 import Home from '../ComponentTitle/Home';
 import Romantic from '../ComponentTitle/Romantic';
 import Comedy from '../ComponentTitle/Comedy';
@@ -17,7 +17,7 @@ function ComponentContent() {
 
   return (
     <>
-      <BrowserRouter>
+        <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/Romantic" element={<Romantic />}/>
@@ -27,7 +27,7 @@ function ComponentContent() {
           <Route path="/Drama" element={<Drama />}/>
           <Route path="/Actions" element={<Actions />}/>
           {/* <Route path="*" element={<Error />}/> */}
-        </Routes>
+        </Routes> 
           <nav className="NavTitle">
           <div className="buttonlink">
             <NavLink end to="/" className={({isActive}) => isActive? activeClassName:undefined}>Home</NavLink>
@@ -53,6 +53,8 @@ function ComponentContent() {
         </nav>
         
       </BrowserRouter>
+
+      <h1>Hello</h1>
     </>
   )
 }

@@ -10,96 +10,59 @@ function Romantic() {
         </div>
         <ul class="nav-links">
             <Link to="/">Back to Home</Link>
-            <h3>Actions</h3>
+            <h3>Romantic</h3>
         </ul>
     </nav>
 
     <div class="container">
         <div class="item">
             <div class="main">
-                <div class="tag">Travel</div>
                 <div class="img">
-                    {/* <img src="pic1.jpg" alt=""> */}
+                    <img src="https://upload.wikimedia.org/wikipedia/th/8/84/Titanicposter.jpg" alt=""/>
                 </div>
                 <div class="content">
                     <div class="center">
-                        <h3>January 24, 2023</h3>
-                        <h1>Some Title</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni omnis amet minus dolores,
-                            iure sunt odit eius repellendus sit velit? Vitae commodi voluptatibus eveniet quibusdam
-                            neque fugit laboriosam aspernatur at?
-                        </p>
+                        <h1>Titanic</h1>
                     </div>
-                </div>
-                <div class="footer">
-                    {/* ไว้ใส่ route */}
                 </div>
             </div>
         </div>
+
         <div class="item">
             <div class="main">
-                <div class="tag">Travel</div>
                 <div class="img">
-                    {/* <img src="pic1.jpg" alt=""> */}
+                    <img src="https://cms.dmpcdn.com/dara/2023/01/12/b66b3810-9237-11ed-882a-8d628d86a541_webp_original.jpg" alt=""/>
                 </div>
                 <div class="content">
                     <div class="center">
-                        <h3>January 24, 2023</h3>
-                        <h1>Some Title</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni omnis amet minus dolores,
-                            iure sunt odit eius repellendus sit velit? Vitae commodi voluptatibus eveniet quibusdam
-                            neque fugit laboriosam aspernatur at?
-                        </p>
+                        <h1>เธอกับฉับกับฉัน</h1>
                     </div>
-                </div>
-                <div class="footer">
-                    {/* ไว้ใส่ route */}
                 </div>
             </div>
         </div>
+
         <div class="item">
             <div class="main">
-                <div class="tag">Travel</div>
                 <div class="img">
-                    {/* <img src="pic1.jpg" alt=""> */}
+                    <img src="https://upload.wikimedia.org/wikipedia/th/1/1f/First_Love.jpg" alt=""/>
                 </div>
                 <div class="content">
                     <div class="center">
-                        <h3>January 24, 2023</h3>
-                        <h1>Some Title</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni omnis amet minus dolores,
-                            iure sunt odit eius repellendus sit velit? Vitae commodi voluptatibus eveniet quibusdam
-                            neque fugit laboriosam aspernatur at?
-                        </p>
+                        <h1>สิ่งเล็กๆที่เรียกว่ารัก</h1>
                     </div>
-                </div>
-                <div class="footer">
-                    {/* ไว้ใส่ route */}
                 </div>
             </div>
         </div>
+
         <div class="item">
             <div class="main">
-                <div class="tag">Travel</div>
                 <div class="img">
-                    {/* <img src="pic1.jpg" alt=""> */}
+                    <img src="https://s359.kapook.com/pagebuilder/65a6f020-fbc6-4c3d-aca1-f35ffaac1db2.jpg" alt=""/>
                 </div>
                 <div class="content">
                     <div class="center">
-                        <h3>January 24, 2023</h3>
-                        <h1>Some Title</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni omnis amet minus dolores,
-                            iure sunt odit eius repellendus sit velit? Vitae commodi voluptatibus eveniet quibusdam
-                            neque fugit laboriosam aspernatur at?
-                        </p>
+                        <h1>OMG รักจังวะผิดจังหวะ</h1>
                     </div>
-                </div>
-                <div class="footer">
-                    {/* ไว้ใส่ route */}
                 </div>
             </div>
         </div>

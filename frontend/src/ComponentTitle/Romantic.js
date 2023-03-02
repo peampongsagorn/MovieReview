@@ -22,7 +22,7 @@ function Romantic() {
                 </div>
                 <div class="content">
                     <div class="center">
-                        <h1>Some Title</h1>
+                        <h1>Titanic</h1>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@ function Romantic() {
                 </div>
                 <div class="content">
                     <div class="center">
-                        <h1>Some Title</h1>
+                        <h1>เธอกับฉับกับฉัน</h1>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@ function Romantic() {
                 </div>
                 <div class="content">
                     <div class="center">
-                        <h1>Some Title</h1>
+                        <h1>สิ่งเล็กๆที่เรียกว่ารัก</h1>
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@ function Romantic() {
                 </div>
                 <div class="content">
                     <div class="center">
-                        <h1>Some Title</h1>
+                        <h1>OMG รักจังวะผิดจังหวะ</h1>
                     </div>
                 </div>
             </div>

@@ -36,7 +36,7 @@
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 .img{
-    height: 200px;
+    height: 450px;
     background: rgb(152, 150, 150);
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -50,12 +50,12 @@
 .content{
     text-align: center;
     border-bottom: 1px solid;
-    height: 300px;
+    height: 100px;
     /* display: flex;
     justify-content: center;
     align-items: center; */
     padding: 1rem;
-    background-color: aliceblue;
+    background-color:rgb(10, 111, 188);
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }

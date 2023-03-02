@@ -22,7 +22,7 @@ function Kids() {
                 </div>
                 <div class="content">
                     <div class="center">
-                        <h1>Some Title</h1>
+                        <h1>Addam Family</h1>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@ function Kids() {
                 </div>
                 <div class="content">
                     <div class="center">
-                        <h1>Some Title</h1>
+                        <h1>DespicableMe</h1>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@ function Kids() {
                 </div>
                 <div class="content">
                     <div class="center">
-                        <h1>Some Title</h1>
+                        <h1>BigHero6</h1>
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@ function Kids() {
                 </div>
                 <div class="content">
                     <div class="center">
-                        <h1>Some Title</h1>
+                        <h1>กังฟูแพนด้า</h1>
                     </div>
                 </div>
             </div>

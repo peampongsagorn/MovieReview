@@ -50,6 +50,7 @@ function Romantic() {
         </div>
     </NavLink>
 
+    <NavLink to="สิ่งเล็กๆที่เรียกว่ารัก">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -62,7 +63,9 @@ function Romantic() {
                 </div>
             </div>
         </div>
+    </NavLink>
 
+    <NavLink to="OMG รักจังวะผิดจังหวะ">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -75,6 +78,7 @@ function Romantic() {
                 </div>
             </div>
         </div>
+    </NavLink>    
     </div>
 </div>
   )

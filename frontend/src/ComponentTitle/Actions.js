@@ -19,7 +19,9 @@ function Actions() {
     </nav>
     
     <div class="container">
-    <NavLink to="/Romantic">
+
+    
+    <NavLink to="Red notice">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -32,7 +34,9 @@ function Actions() {
                 </div>
             </div>
         </div>
-    </NavLink>      
+    </NavLink> 
+
+        <NavLink to="Fast 9">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -45,22 +49,22 @@ function Actions() {
                 </div>
             </div>
         </div>
+        </NavLink>
+        <NavLink to="Die Hard">
         <div class="item">
             <div class="main">
-    
                 <div class="img">
                       <img src="https://upload.wikimedia.org/wikipedia/th/thumb/1/1f/Live_Free_or_Die_Hard_poster.jpg/800px-Live_Free_or_Die_Hard_poster.jpg" alt=""/> 
                 </div>
                 <div class="content">
-                    <div class="center">
-                 
+                    <div class="center">            
                         <h1>Die Hard</h1>
-                  
                     </div>
                 </div>
-            
             </div>
         </div>
+        </NavLink>
+        <NavLink to="Jack reacher">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -69,12 +73,12 @@ function Actions() {
                 <div class="content">
                     <div class="center">
                         <h1>Jack reacher</h1>
-                    
                     </div>
                 </div>
-         
             </div>
         </div>
+        </NavLink>
+
     </div>
 </div>
   )

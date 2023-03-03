@@ -12,9 +12,9 @@ function Actions() {
         <div class="heading">
             <h4>Movie Review</h4>
         </div>
-        <ul class="nav-links">
-            <Link to="/">Back to Home</Link>
-            <h3>Actions</h3>
+        <ul className='navlr'>
+            <div><NavLink to="/"><button class="button button4">Back to Home</button></NavLink></div>
+            <div className='nav-r'><h3>Actions</h3></div>
         </ul>
     </nav>
     

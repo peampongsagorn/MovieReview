@@ -19,7 +19,6 @@
     border-radius: 30px;
     /*overflow: hidden;*/
     position:relative;
-    flex-direction: row;
 
 }
 
@@ -40,6 +39,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin: 5%;
 }
 
 .flex-container-1{
@@ -47,12 +47,12 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 .flex-container-1 button{
     height: 150px;
     width: 400px;
-    margin: 5%;
     border-radius: 12px;
 }
 
@@ -61,24 +61,15 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 5%;
    
 }
 
 .flex-container-2 button{
     height: 150px;
     width: 400px;
-    margin: 5%;
     border-radius: 12px;
 }
-  
-/* .cpntenthome{
-    height: 480px;
-    background: rgb(152, 150, 150);
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    overflow: hidden;
-    position: relative; 
-}*/
 
 .heading{
     display: grid;
@@ -92,6 +83,23 @@ a{
     color:black;
 }
 
+.navlr{
+    margin-right: 50px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+}
+
+.nav-l{
+    margin-right: 5%;
+    border-radius: 12px;
+}
+.nav-r{
+    margin-top: 25px;
+    margin-left: 5%;
+
+}
 /* .nav-links{
      position: absolute; 
     left: 50%;

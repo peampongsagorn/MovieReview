@@ -11,6 +11,7 @@ import Kids from '../ComponentTitle/Kids';
 import Drama from '../ComponentTitle/Drama';
 import Actions from '../ComponentTitle/Actions';
 import Detail from '../ComponentDetail/Detail';
+import ComponentDetail from '../ComponentDetail/ComponentDetail';
 // import ComponentDetail from '../ComponentDetail/ComponentDetail';
 
 function ComponentContent() {
@@ -28,7 +29,7 @@ function ComponentContent() {
           <Route path="/Kids" element={<Kids />}/>
           <Route path="/Drama" element={<Drama />}/>
           <Route path="/Actions" element={<Actions />}/>
-          <Route path="Romantic/Detail" element={<Detail />}/>
+          <Route path="Romantic/titanic" element={<ComponentDetail />}/>
           {/* <Route path="*" element={<Error />}/> */}
         </Routes> 
           {/* <nav className="NavTitle">

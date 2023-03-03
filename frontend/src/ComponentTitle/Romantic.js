@@ -20,7 +20,7 @@ function Romantic() {
 
     <div class="container">
 
-    <NavLink to="Detail">
+    <NavLink to="titanic">
         <div class="item">
             <div class="main">
                 <div class="img">

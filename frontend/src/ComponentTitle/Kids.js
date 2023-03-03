@@ -17,6 +17,8 @@ function Kids() {
     </nav>
 
     <div class="container">
+
+    <NavLink to="Addam Family">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -29,7 +31,9 @@ function Kids() {
                 </div>
             </div>
         </div>
+    </NavLink>
 
+    <NavLink to="DespicableMe">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -42,7 +46,9 @@ function Kids() {
                 </div>
             </div>
         </div>
+    </NavLink>
 
+    <NavLink to="BigHero6">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -55,7 +61,9 @@ function Kids() {
                 </div>
             </div>
         </div>
+    </NavLink>
 
+    <NavLink to="กังฟูแพนด้า">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -68,6 +76,7 @@ function Kids() {
                 </div>
             </div>
         </div>
+    </NavLink>
     </div>
 </div>
   )

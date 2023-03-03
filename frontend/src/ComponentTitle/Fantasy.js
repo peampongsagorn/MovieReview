@@ -17,6 +17,7 @@ function Fantasy() {
     </nav>
 
     <div class="container">
+    <NavLink to="Harry Potter กับศิลาอาถรรพ์">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -29,6 +30,8 @@ function Fantasy() {
                 </div>
             </div>
         </div>
+        </NavLink>
+        <NavLink to="Fantastic Beast">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -41,6 +44,8 @@ function Fantasy() {
                 </div>
             </div>
         </div>
+        </NavLink>
+        <NavLink to="Alice in Wonderland">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -53,6 +58,8 @@ function Fantasy() {
                 </div>
             </div>
         </div>
+        </NavLink>
+        <NavLink to="Harry Potter กับ เครื่องรางยมทูต">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -65,6 +72,8 @@ function Fantasy() {
                 </div>
             </div>
         </div>
+    </NavLink>
+
     </div>
 </div>
   )

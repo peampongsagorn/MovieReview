@@ -17,6 +17,7 @@ function Drama() {
     </nav>
 
     <div class="container">
+    <NavLink to="Whale">
         <div class="item">
             <div class="main">
                 <div class="tag">Travel</div>
@@ -28,9 +29,10 @@ function Drama() {
                         <h1>Whale</h1>
                     </div>
                 </div>
-                
             </div>
         </div>
+        </NavLink>
+        <NavLink to="Joker">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -43,6 +45,8 @@ function Drama() {
                 </div>
             </div>
         </div>
+        </NavLink>
+        <NavLink to="Fan Day แฟนกันแค่วันเดียว">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -55,6 +59,8 @@ function Drama() {
                 </div>
             </div>
         </div>
+        </NavLink>
+        <NavLink to="20th Century Girl">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -67,6 +73,8 @@ function Drama() {
                 </div>
             </div>
         </div>
+        </NavLink>
+
     </div>
 </div>
   )

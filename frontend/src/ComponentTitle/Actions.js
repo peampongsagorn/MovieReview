@@ -2,6 +2,8 @@ import React from 'react'
 import {Link } from 'react-router-dom'
 import './componenttitle.css'
 // import Movie from '../ComponentDetail/Com';
+import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
+import Romantic from '../ComponentTitle/Romantic';
 
 function Actions() {
   return (
@@ -10,13 +12,14 @@ function Actions() {
         <div class="heading">
             <h4>Movie Review</h4>
         </div>
-        <ul class="nav-links">
-            <Link to="/">Back to Home</Link>
-            <h3>Actions</h3>
+        <ul className='navlr'>
+            <div><NavLink to="/"><button class="button button4">Back to Home</button></NavLink></div>
+            <div className='nav-r'><h3>Actions</h3></div>
         </ul>
     </nav>
-
+    
     <div class="container">
+    <NavLink to="/Romantic">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -27,9 +30,9 @@ function Actions() {
                         <h1>Red notice</h1>
                     </div>
                 </div>
-              
             </div>
         </div>
+    </NavLink>      
         <div class="item">
             <div class="main">
                 <div class="img">

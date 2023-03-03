@@ -2,6 +2,7 @@
 //import './App.css';
 //import ComponentRomantic from "./ComponentTitle/ComponentRomantic/ComponentRomantic";
 import ComponentHome from "./ComponentHome/ComponentHome";
+import ComponentNavbar from "./ComponentHome/ComponentNavbar";
 /*function App() {
   return (
     <div className="App">
@@ -26,6 +27,7 @@ import ComponentHome from "./ComponentHome/ComponentHome";
 function App() {
   return (
     <>
+      {/* <ComponentNavbar/> */}
       {/* <ComponentRomantic/> */}
       <ComponentHome/>
     </>

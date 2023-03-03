@@ -28,10 +28,10 @@ function ComponentContent() {
           <Route path="/Actions" element={<Actions />}/>
           {/* <Route path="*" element={<Error />}/> */}
         </Routes> 
-          <nav className="NavTitle">
-          <div className="buttonlink">
+          {/* <nav className="NavTitle">
+           <div className="buttonlink">
             <NavLink end to="/" className={({isActive}) => isActive? activeClassName:undefined}>Home</NavLink>
-          </div>
+          </div> 
           <div className="buttonlink">
             <NavLink to="/Romantic" className={({isActive}) => isActive? activeClassName:undefined}>Romantic</NavLink>
           </div>
@@ -50,7 +50,7 @@ function ComponentContent() {
           <div className="buttonlink">
             <NavLink to="/Actions" className={({isActive}) => isActive? activeClassName:undefined}>Actions</NavLink>
           </div>
-        </nav>
+        </nav> */}
         
       </BrowserRouter>
     </>

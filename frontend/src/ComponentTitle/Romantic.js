@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link } from 'react-router-dom'
+import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
 import './componenttitle.css'
 
 function Romantic() {
@@ -9,9 +10,9 @@ function Romantic() {
         <div class="heading">
             <h4>Movie Review</h4>
         </div>
-        <ul class="nav-links">
-            <Link to="/">Back to Home</Link>
-            <h3>Romantic</h3>
+        <ul className='navlr'>
+            <div><NavLink to="/"><button class="button button4">Back to Home</button></NavLink></div>
+            <div className='nav-r'><h3>Romantic</h3></div>
         </ul>
     </nav>
 

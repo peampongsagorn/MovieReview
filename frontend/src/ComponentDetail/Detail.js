@@ -3,9 +3,9 @@ import axios from 'axios'
 
 function Detail() {
      const [name, setName] = useState("");
-     
+
      function getDetail(){
-        axios.get('http://localhost:8080' ,{cressdomain: true})
+        axios.get('http://localhost:8080/Romantic/titanic' ,{cressdomain: true})
             .then(Response => {
                 setName(Response.data.name);
             })

@@ -19,66 +19,73 @@ router.get("/Romantic/:name",(req,res)=>{
     const movie_name = req.params.name
     console.log(movie_name)
     Movie.findOne({name:movie_name}).exec((err,doc) => {
+        res.json(doc)
         console.log(doc)
     })
-    Comment.find({name:movie_name}).exec((err,doc) => {
-        console.log(doc)
-    })
+    // Comment.find({name:movie_name}).exec((err,doc) => {
+    //     res.json(doc)
+    //     console.log(doc)
+    // })
     })
 
 router.get("/Comedy/:name",(req,res)=>{
     const movie_name = req.params.name
     console.log(movie_name)
     Movie.findOne({name:movie_name}).exec((err,doc) => {
+        res.json(doc)
         console.log(doc)
     })
-    Comment.findOne({name:movie_name}).exec((err,doc) => {
-        console.log(doc)
-    })
+    // Comment.findOne({name:movie_name}).exec((err,doc) => {
+    //     console.log(doc)
+    // })
     })
 
-router.get("/Fantasy/::name",(req,res)=>{
+router.get("/Fantasy/:name",(req,res)=>{
     const movie_name = req.params.name
     console.log(movie_name)
     Movie.findOne({name:movie_name}).exec((err,doc) => {
+        res.json(doc)
         console.log(doc)
     })
-    Comment.findOne({name:movie_name}).exec((err,doc) => {
-        console.log(doc)
-    })
+    // Comment.findOne({name:movie_name}).exec((err,doc) => {
+    //     console.log(doc)
+    // })
     })
 
 router.get("/Kids/:name",(req,res)=>{
     const movie_name = req.params.name
     console.log(movie_name)
     Movie.findOne({name:movie_name}).exec((err,doc) => {
+        res.json(doc)
         console.log(doc)
     })
-    Comment.findOne({name:movie_name}).exec((err,doc) => {
-        console.log(doc)
-    })
+    // Comment.findOne({name:movie_name}).exec((err,doc) => {
+    //     console.log(doc)
+    // })
     })
 
 router.get("/Drama/:name",(req,res)=>{
     const movie_name = req.params.name
     console.log(movie_name)
     Movie.findOne({name:movie_name}).exec((err,doc) => {
+        res.json(doc)
         console.log(doc)
     })
-    Comment.findOne({name:movie_name}).exec((err,doc) => {
-        console.log(doc)
-    })
+    // Comment.findOne({name:movie_name}).exec((err,doc) => {
+    //     console.log(doc)
+    // })
     })
 
 router.get("/Action/:name",(req,res)=>{
     const movie_name = req.params.name
     console.log(movie_name)
     Movie.findOne({name:movie_name}).exec((err,doc) => {
+        res.json(doc)
         console.log(doc)    
     })
-    Comment.findOne({name:movie_name}).exec((err,doc) => {
-        console.log(doc)
-    })
+    // Comment.findOne({name:movie_name}).exec((err,doc) => {
+    //     console.log(doc)
+    // })
     })
 
 router.post('/Romantic/:name',(req,res) => {

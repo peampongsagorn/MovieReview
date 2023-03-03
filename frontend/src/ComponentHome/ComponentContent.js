@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
 import './ComponentHome.css'
 
-import ComponentHome from './ComponentHome';
+// import ComponentHome from './ComponentHome';
 import Home from '../ComponentTitle/Home';
 import Romantic from '../ComponentTitle/Romantic';
 import Comedy from '../ComponentTitle/Comedy';
@@ -10,12 +10,14 @@ import Fantasy from '../ComponentTitle/Fantasy';
 import Kids from '../ComponentTitle/Kids';
 import Drama from '../ComponentTitle/Drama';
 import Actions from '../ComponentTitle/Actions';
-import Detail from '../ComponentDetail/Detail';
 // import ComponentDetail from '../ComponentDetail/ComponentDetail';
+import Detail from '../ComponentDetail/Detail';
+// import Movie from '../ComponentDetail/Movie';
 
 function ComponentContent() {
 
-  let activeClassName = "nav-active"
+  // let activeClassName = "nav-active"
+  // const [name, setName] = useState("");
 
   return (
     <>
@@ -28,7 +30,7 @@ function ComponentContent() {
           <Route path="/Kids" element={<Kids />}/>
           <Route path="/Drama" element={<Drama />}/>
           <Route path="/Actions" element={<Actions />}/>
-          <Route path="Romantic/Detail" element={<Detail />}/>
+          <Route path="/Romantic/titanic" element={<Detail/>}/>
           {/* <Route path="*" element={<Error />}/> */}
         </Routes> 
           {/* <nav className="NavTitle">

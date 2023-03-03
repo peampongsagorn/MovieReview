@@ -24,7 +24,7 @@ const movies = axios.create({
     baseURL: "http://localhost:8080/Romantic/:name"
 })
 
-const App = () => {
+const ComponentDetail = () => {
     const [movies, setMovie] = useState([]);
     // const [description, setDescription] = useState("");
     // const [imagepath, setImagapath] = useState("");
@@ -42,10 +42,12 @@ const App = () => {
 
 return(
     
-            <div key={movie.id}>
-            <h2> {post.name}</h2>
+            <div key={movies.id}>
+            <h2> {movies.name}</h2>
+            
             </div>
         )
 
 } 
+
 export default ComponentDetail

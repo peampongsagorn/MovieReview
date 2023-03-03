@@ -153,13 +153,11 @@ a{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 } */
 .img{
-<<<<<<< HEAD
-    height: 500px;
-    height: 450px;
-=======
+/* <<<<<<< HEAD
+    /* height: 500px;
+    height: 450px; */ 
     height: 480px;
->>>>>>> a55af8a405abad69005ca7979abbd51093366255
-    background: rgb(152, 150, 150);
+    background-color: rgb(152, 150, 150); 
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     overflow: hidden;

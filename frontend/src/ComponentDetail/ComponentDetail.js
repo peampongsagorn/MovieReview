@@ -39,7 +39,7 @@ const App = () => {
                     // setComment(response.data.comment);
     })
             },[])
-} 
+
 return(
     
             <div key={movie.id}>
@@ -47,5 +47,5 @@ return(
             </div>
         )
 
-
+} 
 export default ComponentDetail

@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import axios from 'axios'
 
-function MovieDetail(){
+function ComponentDetail(){
     axios.get('http://localhost:8080/', { crossdomain: true})
     const [name, setName] = useState("");
     const [description, setDescription] = useState("");
@@ -19,3 +19,4 @@ function MovieDetail(){
     // }
 }
 
+export default ComponentDetail

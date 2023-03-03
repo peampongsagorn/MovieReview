@@ -2,6 +2,8 @@ import React from 'react'
 import {Link } from 'react-router-dom'
 import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
 import './componenttitle.css'
+import Detail from '../ComponentDetail/Detail';
+
 
 function Romantic() {
   return (
@@ -17,6 +19,8 @@ function Romantic() {
     </nav>
 
     <div class="container">
+
+    <NavLink to="Detail">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -29,6 +33,7 @@ function Romantic() {
                 </div>
             </div>
         </div>
+        </NavLink>
 
         <div class="item">
             <div class="main">

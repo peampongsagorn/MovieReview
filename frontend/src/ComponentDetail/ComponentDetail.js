@@ -20,9 +20,17 @@ function ComponentDetail(){
     }
 
 
+<<<<<<< HEAD
 // const movies = axios.create({
 //     baseURL: "http://localhost:8080/Romantic/titanic"
 // })
+=======
+const ComponentDetail = () => {
+    const [movies, setMovie] = useState([]);
+    // const [description, setDescription] = useState("");
+    // const [imagepath, setImagapath] = useState("");
+    // const [comment, setComment] = useState("");
+>>>>>>> ac406f724f538b2b259abf65baabb82709309e12
 
 // const ComponentDetail = () => {
 //     const [movies, setMovie] = useState([]);
@@ -42,10 +50,22 @@ function ComponentDetail(){
 
 return(
     
+<<<<<<< HEAD
            // <div key={movies.id}>
             <h2> {name}</h2>
            // </div>
+=======
+            <div key={movies.id}>
+            <h2> {movies.name}</h2>
+            
+            </div>
+>>>>>>> ac406f724f538b2b259abf65baabb82709309e12
         )
 }
 
+<<<<<<< HEAD
+=======
+} 
+
+>>>>>>> ac406f724f538b2b259abf65baabb82709309e12
 export default ComponentDetail

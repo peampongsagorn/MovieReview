@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
 import './ComponentHome.css'
 
-import ComponentHome from './ComponentHome';
+// import ComponentHome from './ComponentHome';
 import Home from '../ComponentTitle/Home';
 import Romantic from '../ComponentTitle/Romantic';
 import Comedy from '../ComponentTitle/Comedy';
@@ -10,13 +10,19 @@ import Fantasy from '../ComponentTitle/Fantasy';
 import Kids from '../ComponentTitle/Kids';
 import Drama from '../ComponentTitle/Drama';
 import Actions from '../ComponentTitle/Actions';
+<<<<<<< HEAD
 import Detail from '../ComponentDetail/Detail';
 import ComponentDetail from '../ComponentDetail/ComponentDetail';
+=======
+>>>>>>> ac406f724f538b2b259abf65baabb82709309e12
 // import ComponentDetail from '../ComponentDetail/ComponentDetail';
+import Detail from '../ComponentDetail/Detail';
+// import Movie from '../ComponentDetail/Movie';
 
 function ComponentContent() {
 
-  let activeClassName = "nav-active"
+  // let activeClassName = "nav-active"
+  // const [name, setName] = useState("");
 
   return (
     <>
@@ -29,7 +35,11 @@ function ComponentContent() {
           <Route path="/Kids" element={<Kids />}/>
           <Route path="/Drama" element={<Drama />}/>
           <Route path="/Actions" element={<Actions />}/>
+<<<<<<< HEAD
           <Route path="Romantic/titanic" element={<ComponentDetail />}/>
+=======
+          <Route path="/Romantic/titanic" element={<Detail/>}/>
+>>>>>>> ac406f724f538b2b259abf65baabb82709309e12
           {/* <Route path="*" element={<Error />}/> */}
         </Routes> 
           {/* <nav className="NavTitle">

@@ -1,13 +1,19 @@
 import React, { useState } from 'react'
-// import React, { useEffect, useState } from 'react'
-// import axios from 'axios'
+import axios from 'axios'
 
 function Detail() {
-
-    // const [name, setName] = useState("")
+     const [name, setName] = useState("");
+     
+     function getDetail(){
+        axios.get('http://localhost:8080' ,{cressdomain: true})
+            .then(Response => {
+                setName(Response.data.name);
+            })
+     }
     return(
         <div>
-            {/* <h1>{name}</h1> */}
+            <button onClick={getDetail}>DetailName</button>
+            <h1>{name}</h1>
             <h1>Hi</h1>
         </div>
     )

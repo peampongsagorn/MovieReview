@@ -10,7 +10,8 @@ function Drama() {
             <h4>Movie Review</h4>
         </div>
         <ul class="nav-links">
-            <Link to="/">Back to Home</Link>
+            <div className='Linktag'><Link to="/">Back to Home</Link></div>
+            
             <h3>Actions</h3>
         </ul>
     </nav>

@@ -30,6 +30,8 @@ router.get("/Romantic/:name",(req,res)=>{
 
     router.get("/Romantic/titanic",(req,res)=>{
         const movie_name = 'titanic'
+        res.write("titanic")
+        res.end()
         console.log(movie_name)
         Movie.findOne({name:movie_name}).exec((err,doc) => {
             res.json(doc)

@@ -1,6 +1,6 @@
 import React from 'react'
-import {Link } from 'react-router-dom'
-import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
+import {Link, Outlet } from 'react-router-dom'
+import { BrowserRouter, NavLink, Routes, Route} from "react-router-dom";
 import './componenttitle.css'
 import Detail from '../ComponentDetail/Detail';
 
@@ -13,14 +13,15 @@ function Romantic() {
             <h4>Movie Review</h4>
         </div>
         <ul className='navlr'>
-            <div><NavLink to="/"><button class="button button4">Back to Home</button></NavLink></div>
+            <div><Link to="/"><button class="button button4">Back to Home</button></Link></div>
             <div className='nav-r'><h3>Romantic</h3></div>
         </ul>
     </nav>
 
     <div class="container">
 
-    <NavLink to="titanic">
+    <Link to="titanic">
+        <Outlet/>
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -33,7 +34,7 @@ function Romantic() {
                 </div>
             </div>
         </div>
-        </NavLink>
+    </Link>
     
     <NavLink to="เธอกับฉันกับฉัน">
         <div class="item">

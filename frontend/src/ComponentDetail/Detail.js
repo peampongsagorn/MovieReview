@@ -9,12 +9,16 @@ function Detail() {
             .then(Response => {
                 setName(Response.data.name);
             })
+        axios.get('http://localhost:8080/Romantic/:name' ,{cressdomain: true})
+            .then(Response => {
+                setName(Response.data.name);
+            })
      }
     return(
         <div>
-            <button onClick={getDetail}>DetailName</button>
+            {/* <button onClick={getDetail}>DetailName</button> */}
             <h1>{name}</h1>
-            <h1>Hi</h1>
+            <h1>Hi this is Detail</h1>
         </div>
     )
 }

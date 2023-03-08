@@ -20,7 +20,6 @@ function Drama() {
     <NavLink to="Whale">
         <div class="item">
             <div class="main">
-                <div class="tag">Travel</div>
                 <div class="img">
                     <img src="https://s359.kapook.com/rq/450/auto/50/pagebuilder/49253907-831a-492a-88d4-6bf2a31de826.jpg" alt=""/>
                 </div>
@@ -64,7 +63,7 @@ function Drama() {
         <div class="item">
             <div class="main">
                 <div class="img">
-                    <img src="https://s359.kapook.com/rq/450/auto/50/pagebuilder/49253907-831a-492a-88d4-6bf2a31de826.jpg" alt=""/>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/4/4d/20th_Century_Girl.jpg" alt=""/>
                 </div>
                 <div class="content">
                     <div class="center">

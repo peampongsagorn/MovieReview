@@ -1,26 +1,24 @@
-import React, { useState } from 'react'
-import axios from 'axios'
+import React, { useEffect, useState } from 'react'
+import Axios from "axios";
 
-function Detail() {
-     const [name, setName] = useState("");
+const Detail = () => {
+    const [data,setData] = useState("");
 
-     function getDetail(){
-        axios.get('http://localhost:8080/Romantic/titanic' ,{cressdomain: true})
-            .then(Response => {
-                setName(Response.data.name);
-            })
-        axios.get('http://localhost:8080/Romantic/:name' ,{cressdomain: true})
-            .then(Response => {
-                setName(Response.data.name);
-            })
-     }
-    return(
-        <div>
-            {/* <button onClick={getDetail}>DetailName</button> */}
-            <h1>{name}</h1>
-            <h1>Hi this is Detail</h1>
-        </div>
-    )
+    const getData=async()=>{
+        const response = await Axios.get("http://localhost:8080/Romantic/titanic");
+        setData(response.data);
+    }
+    
+    useEffect(()=>{
+        getData()
+    },[]);
+  return (
+    <div>
+      {data}
+      <h3>hello</h3>
+    </div>
+  )
 }
 
 export default Detail
+

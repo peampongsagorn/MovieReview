@@ -1,6 +1,7 @@
 import React from 'react'
 import './componenttitle.css'
 import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
+import Detail from '../ComponentDetail/Detail';
 
 function Home() {
 
@@ -8,6 +9,7 @@ let activeClassName = "nav-active"
 
   return (
     <div>
+      <Detail/>
     <nav>
         <div class="heading">
             <h4>Movie Review</h4>

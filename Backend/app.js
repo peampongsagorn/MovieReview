@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 const router = require('./myRouter');
-
 const Movie = require('./movie');
+
 
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');

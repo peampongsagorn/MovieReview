@@ -1,8 +1,12 @@
 //import logo from './logo.svg';
 //import './App.css';
 //import ComponentRomantic from "./ComponentTitle/ComponentRomantic/ComponentRomantic";
+
+import { Component } from "react";
+import api from "./ComponentDetail/api";
+import Detail from "./ComponentDetail/Detail";
+import ComponentContent from "./ComponentHome/ComponentContent";
 import ComponentHome from "./ComponentHome/ComponentHome";
-import ComponentNavbar from "./ComponentHome/ComponentNavbar";
 /*function App() {
   return (
     <div className="App">
@@ -29,7 +33,8 @@ function App() {
     <>
       {/* <ComponentNavbar/> */}
       {/* <ComponentRomantic/> */}
-      <ComponentHome/>
+      {/* <ComponentHome/> */}
+      <ComponentContent/>
     </>
   );
 }

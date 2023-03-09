@@ -3,7 +3,6 @@
 //import ComponentRomantic from "./ComponentTitle/ComponentRomantic/ComponentRomantic";
 
 import { Component } from "react";
-import api from "./ComponentDetail/api";
 import Detail from "./ComponentDetail/Detail";
 import ComponentContent from "./ComponentHome/ComponentContent";
 import ComponentHome from "./ComponentHome/ComponentHome";

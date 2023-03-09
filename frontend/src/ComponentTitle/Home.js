@@ -9,7 +9,6 @@ let activeClassName = "nav-active"
 
   return (
     <div>
-      <Detail/>
     <nav>
         <div class="heading">
             <h4>Movie Review</h4>

@@ -13,4 +13,4 @@
    res.header("Access-Control-Allow-Origin", "*"); ใช้กำหนดให้ server สามารถตอบกลับข้อมูลได้ในทุกๆ domain โดยใช้เครื่องหมาย * ในการระบุว่าทุก domain สามารถเข้าถึง API นี้ได้
    res.header("Content-Type",'application/json') กำหนดว่า response ที่จะส่งกลับไปยัง client จะมีหัวเรื่องชื่อ "Content-Type" ซึ่งเป็น header ใช้บอกประเภทของเนื้อหาที่จะส่งกลับไปยัง client        โดย value ของ header นี้จะเป็น "application/json" นั่นคือเนื้อหาของ response จะเป็นข้อมูลในรูปแบบ JSON ซึ่งเป็นรูปแบบสำหรับการแลกเปลี่ยนข้อมูลระหว่างแอปพลิเคชันต่าง ๆ ในรูปแบบของ                ข้อความ (text)
   
- 4. 
+ 

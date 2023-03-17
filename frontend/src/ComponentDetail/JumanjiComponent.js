@@ -9,7 +9,7 @@ function JumanjiComponent() {
 
   const movie_name = 'Jumanji';
   useEffect(() => {
-    axios.get(`http://localhost:8080/Fantasy/${encodeURIComponent(movie_name)}`).then((response) => {
+    axios.get(`http://localhost:8080/Comedy/${encodeURIComponent(movie_name)}`).then((response) => {
       console.log(response.data); // ตรวจสอบข้อมูลที่ได้รับกลับมาจาก API endpoint
       setData(response.data);
     }).catch((error) => {

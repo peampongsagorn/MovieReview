@@ -30,11 +30,17 @@ import DespicableMeComponent from '../ComponentDetail/DespicableMeComponent';
 import BigHero6Component from '../ComponentDetail/BigHero6Component';
 import KunfuComponent from '../ComponentDetail/KunfuComponent';
 
-
+//Drama
 import WhaleComponent from '../ComponentDetail/WhaleComponent';
 import twentythComponent from '../ComponentDetail/twentythComponent';
 import FandayComponent from '../ComponentDetail/FandayComponent';
 import JokerComponent from '../ComponentDetail/JokerComponent';
+
+//Comedy
+import HortaewtakComponent from '../ComponentDetail/HortaewtakComponent';
+import JumanjiComponent from '../ComponentDetail/JumanjiComponent';
+import sevenprajunban from '../ComponentDetail/sevenprajunban';
+import sevenprajunban2 from '../ComponentDetail/sevenprajunban2';
 
 function ComponentContent() {
 
@@ -64,10 +70,10 @@ const [name, setName] = useState("");
           <Route path="/Romantic/OMG รักจังวะผิดจังหวะ" element={<OmgComponent/>}/>
 
           <Route path="/Comedy" element={<Comedy />}/>
-          <Route path="/Comedy/หอเเต๋วเเตก" element={<Detail/>}/>
-          <Route path="/Comedy/Lyle crocodile" element={<Detail/>}/>
-          <Route path="/Comedy/jumanji" element={<Detail/>}/>
-          <Route path="/Comedy/7 ประจัญบาน" element={<Detail />}/>
+          <Route path="/Comedy/หอเเต๋วเเตก" element={<HortaewtakComponent/>}/>
+          <Route path="/Comedy/jumanji" element={<JumanjiComponent/>}/>
+          <Route path="/Comedy/7ประจัญบาน" element={<sevenprajunban/>}/>
+          <Route path="/Comedy/7ประจัญบาน2" element={<sevenprajunban2 />}/>
 
           <Route path="/Fantasy" element={<Fantasy />}/>
           <Route path="/Fantasy/Harry Potter กับศิลาอาถรรพ์" element={<Harry1Component/>}/>

@@ -14,7 +14,10 @@ import Detail from '../ComponentDetail/Detail';
 import YouAndMeAndMeComponent from '../ComponentDetail/YouAndMeAndMeComponent';
 import TitanicComponent from '../ComponentDetail/TitanicComponent';
 // import DetailApi from '../ComponentDetail/DetailApi';
-
+import WhaleComponent from '../ComponentDetail/WhaleComponent';
+import twentythComponent from '../ComponentDetail/twentythComponent';
+import FandayComponent from '../ComponentDetail/FandayComponent';
+import JokerComponent from '../ComponentDetail/JokerComponent';
 function ComponentContent() {
 
 let activeClassName = "nav-active"
@@ -61,10 +64,10 @@ const [name, setName] = useState("");
           <Route path="/Kids/กังฟูแพนด้า" element={<Detail />}/>
 
           <Route path="/Drama" element={<Drama />}/>
-          <Route path="/Drama/Whale" element={<Detail/>}/>
-          <Route path="/Drama/Joker" element={<Detail/>}/>
-          <Route path="/Drama/Fan Day แฟนกันแค่วันเดียว" element={<Detail/>}/>
-          <Route path="/Drama/20th Century Girl" element={<Detail />}/>
+          <Route path="/Drama/Whale" element={<WhaleComponent/>}/>
+          <Route path="/Drama/Joker" element={<JokerComponent/>}/>
+          <Route path="/Drama/Fan Day แฟนกันแค่วันเดียว" element={<FandayComponent/>}/>
+          <Route path="/Drama/20th Century Girl" element={<twentythComponent />}/>
 
           <Route path="/Actions" element={<Actions />}/>
           <Route path="/Actions/Red notice" element={<Detail/>}/>

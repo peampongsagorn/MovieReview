@@ -16,4 +16,5 @@
  
  
  ฝั่งของ Front-end
- 
+ 1.ในไฟล์ App.js ทำการ import file ComponentHome เข้ามาเพื่อทำการแสดงหน้า 
+ 2.ComponentHome 

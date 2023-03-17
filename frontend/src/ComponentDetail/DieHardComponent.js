@@ -4,12 +4,12 @@ import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
 import './Detail.css'
 import '../ComponentTitle/componenttitle.css'
 
-function YouAndMeAndMeComponent() {
+function DieHardComponent() {
   const [data, setData] = useState([]);
 
-  const movie_name = 'เธอกับฉันกับฉัน';
+  const movie_name = 'DieHard';
   useEffect(() => {
-    axios.get(`http://localhost:8080/Romantic/${encodeURIComponent(movie_name)}`).then((response) => {
+    axios.get(`http://localhost:8080/Actions/${encodeURIComponent(movie_name)}`).then((response) => {
       console.log(response.data); // ตรวจสอบข้อมูลที่ได้รับกลับมาจาก API endpoint
       setData(response.data);
     }).catch((error) => {
@@ -40,4 +40,4 @@ function YouAndMeAndMeComponent() {
   );
 }
 
-export default YouAndMeAndMeComponent;
+export default DieHardComponent;

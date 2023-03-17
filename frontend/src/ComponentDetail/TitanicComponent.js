@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-function YouAndMeAndMeComponent() {
+function TitanicComponent() {
   const [data, setData] = useState([]);
 
   const movie_name = 'Titanic';
@@ -27,4 +27,4 @@ function YouAndMeAndMeComponent() {
   );
 }
 
-export default YouAndMeAndMeComponent;
+export default TitanicComponent;

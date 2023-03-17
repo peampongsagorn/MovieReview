@@ -11,9 +11,17 @@ import Kids from '../ComponentTitle/Kids';
 import Drama from '../ComponentTitle/Drama';
 import Actions from '../ComponentTitle/Actions';
 import Detail from '../ComponentDetail/Detail';
-import ComponentDetail from '../ComponentDetail/ComponentDetail';
+import YouAndMeAndMeComponent from '../ComponentDetail/YouAndMeAndMeComponent';
+import TitanicComponent from '../ComponentDetail/TitanicComponent';
 // import DetailApi from '../ComponentDetail/DetailApi';
-
+import WhaleComponent from '../ComponentDetail/WhaleComponent';
+import twentythComponent from '../ComponentDetail/twentythComponent';
+import FandayComponent from '../ComponentDetail/FandayComponent';
+import JokerComponent from '../ComponentDetail/JokerComponent';
+import RedNoticeComponent from '../ComponentDetail/RedNoticeComponent';
+import JackReacherComponent from '../ComponentDetail/JackReacherComponent';
+import FastandFerious9Component from '../ComponentDetail/FastandFerious9Component';
+import DieHardComponent from '../ComponentDetail/DieHardComponent';
 function ComponentContent() {
 
 let activeClassName = "nav-active"
@@ -36,8 +44,8 @@ const [name, setName] = useState("");
           <Route path="/" element={<Home />}/>
 
           <Route path="/Romantic" element={<Romantic />}/>{}
-          <Route path="/Romantic/titanic" element={<Detail/>}/>
-          <Route path="/Romantic/เธอกับฉันกับฉัน" element={<ComponentDetail/>}/>
+          <Route path="/Romantic/titanic" element={<TitanicComponent/>}/>
+          <Route path="/Romantic/เธอกับฉันกับฉัน" element={<YouAndMeAndMeComponent/>}/>
           <Route path="/Romantic/สิ่งเล็กๆที่เรียกว่ารัก" element={<Detail/>}/>
           <Route path="/Romantic/OMG รักจังวะผิดจังหวะ" element={<Detail/>}/>
 
@@ -60,16 +68,16 @@ const [name, setName] = useState("");
           <Route path="/Kids/กังฟูแพนด้า" element={<Detail />}/>
 
           <Route path="/Drama" element={<Drama />}/>
-          <Route path="/Drama/Whale" element={<Detail/>}/>
-          <Route path="/Drama/Joker" element={<Detail/>}/>
-          <Route path="/Drama/Fan Day แฟนกันแค่วันเดียว" element={<Detail/>}/>
-          <Route path="/Drama/20th Century Girl" element={<Detail />}/>
+          <Route path="/Drama/Whale" element={<WhaleComponent/>}/>
+          <Route path="/Drama/Joker" element={<JokerComponent/>}/>
+          <Route path="/Drama/Fan Day แฟนกันแค่วันเดียว" element={<FandayComponent/>}/>
+          <Route path="/Drama/20th Century Girl" element={<twentythComponent />}/>
 
           <Route path="/Actions" element={<Actions />}/>
-          <Route path="/Actions/Red notice" element={<Detail/>}/>
-          <Route path="/Actions/Fast 9" element={<Detail/>}/>
-          <Route path="/Actions/Die Hard" element={<Detail/>}/>
-          <Route path="/Actions/Jack reacher" element={<Detail />}/>
+          <Route path="/Actions/Red notice" element={<RedNoticeComponent/>}/>
+          <Route path="/Actions/Fast 9" element={<FastandFerious9Component/>}/>
+          <Route path="/Actions/Die Hard" element={<DieHardComponent/>}/>
+          <Route path="/Actions/Jack reacher" element={<JackReacherComponent />}/>
 
           {/* <Route path="*" element={<Error />}/>  */}
         </Routes> 

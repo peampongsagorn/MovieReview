@@ -18,6 +18,10 @@ import WhaleComponent from '../ComponentDetail/WhaleComponent';
 import twentythComponent from '../ComponentDetail/twentythComponent';
 import FandayComponent from '../ComponentDetail/FandayComponent';
 import JokerComponent from '../ComponentDetail/JokerComponent';
+import RedNoticeComponent from '../ComponentDetail/RedNoticeComponent';
+import JackReacherComponent from '../ComponentDetail/JackReacherComponent';
+import FastandFerious9Component from '../ComponentDetail/FastandFerious9Component';
+import DieHardComponent from '../ComponentDetail/DieHardComponent';
 function ComponentContent() {
 
 let activeClassName = "nav-active"
@@ -70,10 +74,10 @@ const [name, setName] = useState("");
           <Route path="/Drama/20th Century Girl" element={<twentythComponent />}/>
 
           <Route path="/Actions" element={<Actions />}/>
-          <Route path="/Actions/Red notice" element={<Detail/>}/>
-          <Route path="/Actions/Fast 9" element={<Detail/>}/>
-          <Route path="/Actions/Die Hard" element={<Detail/>}/>
-          <Route path="/Actions/Jack reacher" element={<Detail />}/>
+          <Route path="/Actions/Red notice" element={<RedNoticeComponent/>}/>
+          <Route path="/Actions/Fast 9" element={<FastandFerious9Component/>}/>
+          <Route path="/Actions/Die Hard" element={<DieHardComponent/>}/>
+          <Route path="/Actions/Jack reacher" element={<JackReacherComponent />}/>
 
           {/* <Route path="*" element={<Error />}/>  */}
         </Routes> 

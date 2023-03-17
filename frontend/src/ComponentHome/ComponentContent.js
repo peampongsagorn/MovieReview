@@ -15,6 +15,19 @@ import YouAndMeAndMeComponent from '../ComponentDetail/YouAndMeAndMeComponent';
 import TitanicComponent from '../ComponentDetail/TitanicComponent';
 // import DetailApi from '../ComponentDetail/DetailApi';
 
+//fantasy
+import Harry1Component from '../ComponentDetail/็Harry1Component'
+import FantasticComponent from '../ComponentDetail/FantasticComponent';
+import AliceComponent from '../ComponentDetail/AliceComponent';
+import Harry7Component from '../ComponentDetail/Harry7Component';
+
+//Kids
+import AddamComponent from '../ComponentDetail/AddamComponent';
+import DespicableMeComponent from '../ComponentDetail/DespicableMeComponent';
+import BigHero6Component from '../ComponentDetail/BigHero6Component';
+import KunfuComponent from '../ComponentDetail/KunfuComponent';
+
+
 function ComponentContent() {
 
 let activeClassName = "nav-active"
@@ -49,16 +62,16 @@ const [name, setName] = useState("");
           <Route path="/Comedy/7 ประจัญบาน" element={<Detail />}/>
 
           <Route path="/Fantasy" element={<Fantasy />}/>
-          <Route path="/Fantasy/Harry Potter กับศิลาอาถรรพ์" element={<Detail/>}/>
-          <Route path="/Fantasy/Fantastic Beast" element={<Detail/>}/>
-          <Route path="/Fantasy/Alice in Wonderland" element={<Detail/>}/>
-          <Route path="/Fantasy/Harry Potter กับ เครื่องรางยมทูต" element={<Detail />}/>
+          <Route path="/Fantasy/Harry Potter กับศิลาอาถรรพ์" element={<Harry1Component/>}/>
+          <Route path="/Fantasy/Fantastic Beast" element={<FantasticComponent/>}/>
+          <Route path="/Fantasy/Alice in Wonderland" element={<AliceComponent/>}/>
+          <Route path="/Fantasy/Harry Potter กับ เครื่องรางยมทูต" element={<Harry7Component />}/>
 
           <Route path="/Kids" element={<Kids />}/>
-          <Route path="/Kids/Addam Family" element={<Detail/>}/>
-          <Route path="/Kids/DespicableMe" element={<Detail/>}/>
-          <Route path="/Kids/BigHero6" element={<Detail/>}/>
-          <Route path="/Kids/กังฟูแพนด้า" element={<Detail />}/>
+          <Route path="/Kids/Addam Family" element={<AddamComponent/>}/>
+          <Route path="/Kids/DespicableMe" element={<DespicableMeComponent/>}/>
+          <Route path="/Kids/BigHero6" element={<BigHero6Component/>}/>
+          <Route path="/Kids/กังฟูแพนด้า" element={<KunfuComponent />}/>
 
           <Route path="/Drama" element={<Drama />}/>
           <Route path="/Drama/Whale" element={<Detail/>}/>

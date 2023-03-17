@@ -12,6 +12,7 @@ import Drama from '../ComponentTitle/Drama';
 import Actions from '../ComponentTitle/Actions';
 import Detail from '../ComponentDetail/Detail';
 import ComponentDetail from '../ComponentDetail/ComponentDetail';
+// import DetailApi from '../ComponentDetail/DetailApi';
 
 function ComponentContent() {
 

@@ -13,7 +13,8 @@ import Actions from '../ComponentTitle/Actions';
 import Detail from '../ComponentDetail/Detail';
 import YouAndMeAndMeComponent from '../ComponentDetail/YouAndMeAndMeComponent';
 import TitanicComponent from '../ComponentDetail/TitanicComponent';
-// import DetailApi from '../ComponentDetail/DetailApi';
+import LittleThingCallLoveComponent from '../ComponentDetail/LittleThingCallLoveComponent';
+import OmgComponent from '../ComponentDetail/OmgComponent';
 import WhaleComponent from '../ComponentDetail/WhaleComponent';
 import twentythComponent from '../ComponentDetail/twentythComponent';
 import FandayComponent from '../ComponentDetail/FandayComponent';
@@ -46,8 +47,8 @@ const [name, setName] = useState("");
           <Route path="/Romantic" element={<Romantic />}/>{}
           <Route path="/Romantic/titanic" element={<TitanicComponent/>}/>
           <Route path="/Romantic/เธอกับฉันกับฉัน" element={<YouAndMeAndMeComponent/>}/>
-          <Route path="/Romantic/สิ่งเล็กๆที่เรียกว่ารัก" element={<Detail/>}/>
-          <Route path="/Romantic/OMG รักจังวะผิดจังหวะ" element={<Detail/>}/>
+          <Route path="/Romantic/สิ่งเล็กๆที่เรียกว่ารัก" element={<LittleThingCallLoveComponent/>}/>
+          <Route path="/Romantic/OMG รักจังวะผิดจังหวะ" element={<OmgComponent/>}/>
 
           <Route path="/Comedy" element={<Comedy />}/>
           <Route path="/Comedy/หอเเต๋วเเตก" element={<Detail/>}/>

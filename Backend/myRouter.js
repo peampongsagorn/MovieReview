@@ -21,33 +21,38 @@ router.get("/",(req,res)=>{
 //     res.end()
 // })
 
-router.get("/Romantic/:name",(req,res)=>{
-    const movie_name = req.params.name
-    console.log(movie_name)
-    Movie.findOne({name:movie_name}).exec((err,doc) => {
-        res.json(doc)
-        console.log(doc)
-    })
-    // Comment.find({name:movie_name}).exec((err,doc) => {
-    //     res.json(doc)
-    //     console.log(doc)
-    // })
-    })
+// router.get("/Romantic/:name",(req,res)=>{
+//     const movie_name = req.params.name
+//     console.log(movie_name)
+//     Movie.findOne({name:movie_name}).exec((err,doc) => {
+//         res.json(doc)
+//         console.log(doc)
+//     })
+//     })
 
     router.get("/Romantic/titanic",(req,res)=>{
         const movie_name = 'titanic'
         res.write("titanic")
-        res.end()
+        
         console.log(movie_name)
         Movie.findOne({name:movie_name}).exec((err,doc) => {
             res.json(doc)
             console.log(doc)
+        res.end()
         })
-        // Comment.find({name:movie_name}).exec((err,doc) => {
-        //     res.json(doc)
-        //     console.log(doc)
-        // })
     })
+
+    router.get("/Romantic/เธอกับฉันกับฉัน",(req,res)=>{
+        const movie_name = 'เธอกับฉันกับฉัน'
+        res.write("titanic")
+        console.log(movie_name)
+        Movie.findOne({name:movie_name}).exec((err,doc) => {
+            res.json(doc)
+            console.log(doc)
+        res.end()
+        })
+    })
+
 router.get("/Comedy/:name",(req,res)=>{
     const movie_name = req.params.name
     console.log(movie_name)
@@ -55,9 +60,6 @@ router.get("/Comedy/:name",(req,res)=>{
         res.json(doc)
         console.log(doc)
     })
-    // Comment.findOne({name:movie_name}).exec((err,doc) => {
-    //     console.log(doc)
-    // })
     })
 
 router.get("/Fantasy/:name",(req,res)=>{

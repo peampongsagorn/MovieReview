@@ -36,7 +36,7 @@ const [name, setName] = useState("");
 
           <Route path="/Romantic" element={<Romantic />}/>{}
           <Route path="/Romantic/titanic" element={<Detail/>}/>
-          <Route path="/Romantic/เธอกับฉันกับฉัน" element={<Detail/>}/>
+          <Route path="/Romantic/เธอกับฉันกับฉัน" element={<ComponentDetail/>}/>
           <Route path="/Romantic/สิ่งเล็กๆที่เรียกว่ารัก" element={<Detail/>}/>
           <Route path="/Romantic/OMG รักจังวะผิดจังหวะ" element={<Detail/>}/>
 

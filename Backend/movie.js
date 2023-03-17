@@ -2,7 +2,7 @@
 const mongoose = require('mongoose')
 
 //เชื่อมไปที่ mongoDB
-const dbUrl = 'mongodb://localhost:27017/movieDB'
+const dbUrl = 'mongodb://localhost:27017/movieDB' 
 mongoose.connect(dbUrl,{
     useNewUrlParser:true,
     useUnifiedTopology:true

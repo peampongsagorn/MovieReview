@@ -11,7 +11,8 @@ import Kids from '../ComponentTitle/Kids';
 import Drama from '../ComponentTitle/Drama';
 import Actions from '../ComponentTitle/Actions';
 import Detail from '../ComponentDetail/Detail';
-import ComponentDetail from '../ComponentDetail/ComponentDetail';
+import YouAndMeAndMeComponent from '../ComponentDetail/YouAndMeAndMeComponent';
+import TitanicComponent from '../ComponentDetail/TitanicComponent';
 // import DetailApi from '../ComponentDetail/DetailApi';
 
 function ComponentContent() {
@@ -36,8 +37,8 @@ const [name, setName] = useState("");
           <Route path="/" element={<Home />}/>
 
           <Route path="/Romantic" element={<Romantic />}/>{}
-          <Route path="/Romantic/titanic" element={<Detail/>}/>
-          <Route path="/Romantic/เธอกับฉันกับฉัน" element={<ComponentDetail/>}/>
+          <Route path="/Romantic/titanic" element={<TitanicComponent/>}/>
+          <Route path="/Romantic/เธอกับฉันกับฉัน" element={<YouAndMeAndMeComponent/>}/>
           <Route path="/Romantic/สิ่งเล็กๆที่เรียกว่ารัก" element={<Detail/>}/>
           <Route path="/Romantic/OMG รักจังวะผิดจังหวะ" element={<Detail/>}/>
 

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import './Detail.css'
 
-function ComponentDetail() {
+function YouAndMeAndMeComponent() {
   const [data, setData] = useState([]);
 
   const movie_name = 'เธอกับฉันกับฉัน';
@@ -28,4 +28,4 @@ function ComponentDetail() {
   );
 }
 
-export default ComponentDetail;
+export default YouAndMeAndMeComponent;

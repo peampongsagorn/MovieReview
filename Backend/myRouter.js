@@ -21,30 +21,7 @@ router.get("/Romantic/:movieName",(req,res)=>{
 })
 
 
-    // router.get("/Romantic/titanic",(req,res)=>{
-    //     const movie_name = 'titanic'
-    //     res.write("titanic")
-        
-    //     console.log(movie_name)
-    //     Movie.findOne({name:movie_name}).exec((err,doc) => {
-    //         res.header("Access-Control-Allow-Origin", "*"); // ระบุโดเมนของ frontend ที่เรียกใช้ API ได้ทุกๆ โดเมน
-    //         res.header("Content-Type",'application/json')       
-    //         res.send(JSON.stringify(doc))
-    //         res.end()
-    //     })
-    // })
 
-    // router.get("/Romantic/เธอกับฉันกับฉัน",(req,res)=>{
-    //     const movie_name = 'เธอกับฉันกับฉัน'
-    //     res.write("titanic")
-    //     console.log(movie_name)
-    //     Movie.findOne({name:movie_name}).exec((err,doc) => {
-    //         res.header("Access-Control-Allow-Origin", "*"); // ระบุโดเมนของ frontend ที่เรียกใช้ API ได้ทุกๆ โดเมน
-    //         res.header("Content-Type",'application/json')
-    //         res.send(JSON.stringify(doc))
-    //         res.end()
-    //     })
-    // })
 //ใช้ถึงนี่
 // router.get("/Comedy/:name",(req,res)=>{
 //     const movie_name = decodeURIComponent(req.params.name)

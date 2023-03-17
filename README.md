@@ -17,4 +17,7 @@
  
  ฝั่งของ Front-end
  1.ในไฟล์ App.js ทำการ import file ComponentHome เข้ามาเพื่อทำการแสดงหน้า 
- 2.ComponentHome 
+ 2.ComponentContent มีการใช้ BrowserRouter Routes Route เพื่อใช้ในการทำการ Route path จะมีการ route ไปยังไฟล์ต่างๆ ภายใน frontend ตังอย่างเช่น <Route path="/Romantic" element=            {<Romantic />}/> คือเป็นการบอกว่า ถ้าหาก URL มี path เป็น /Romantic จะให้มีการ render component ชื่อ Romantic เป็นต้น โดยจะมีการแบ่งเป็นหมวดหมู่ ได้แก่ Romantic, Comedy, Fantasy, Kids,    Drama, Actions และนอกจากมีการใช้ Route path ไปยังหมวดหมู่ต่างๆแล้ว ยังมีการ Route path ไปยังหน้าหนังแต่ละเรื่องด้วย ตัวอย่างเช่น <Route path="/Romantic/titanic" element=                    {<TitanicComponent/>}/> คือ ถ้าหาก URL มี path เป็น /Romantic/titanic จะให้มีการ render component ชื่อ TitanicComponent
+ 3.ComponentTitle เป็นโฟลเดอร์ที่ทำการสร้างไว้เพื่อแบ่งหมวดหมู่ของหนัง มีหน้า Home ไว้สำหรับเลือกหนังต่างๆ ภายในไฟล์ Home.js มีการใช้ NavLink เหมือนกับ Link ต่างกันที่ตัว Navlink สามารถกำหนด active    style ได้ และมีการทำงานคล้ายกับ tag a เอาไว้สำหรับกดไปยังไฟล์หมวดหมู่ที่ต้องการซึ่งจะประกอบไป    ด้วยไฟล์ Romantic.js, Comedy.js, Fantasy.js, Kids.js, Drama.js, Actions.js
+ 4.ภายในไฟล์หมวดหมู่แต่ละไฟล์จะประกอบไปด้วยหนังทั้งหมด 4 เรื่อง ในแต่ละเรื่องมีรูปแบบการทำงานดังนี้มีส่วนของชื่อ Movie Review และมี NavLink to="/" เพื่อทำการกลับไปยัง path "/" ซึ่งก็คือหน้า Home หน้า    แรก มีส่วนของภาพและชื่อหนังภายในหมวดหมู่ 4 เรื่องโดยที่สามารถกดเข้าไปในภาพหนังนั้น เพื่อทำการเข้าไปยังหน้ารีวิวหนังเรื่องต้องการ ซึ่งจะมีการดึงข้อมูลมาจากทางฝั่ง backend
+ 

@@ -25,11 +25,17 @@ function ComponentDetail(){
         fetchData()
     }, [])
 
+    const movieresult = JSON.stringify(name)
+
 return(
     
            // <div key={movies.id}>
-            <h2> {name}</h2>
-           // </div>
+            <div className='name_container'>
+                { name.map(detail =>
+                    <div key={detail.id}>
+                        <h2> {detail.name} </h2>
+                        </div>)}            
+            </div>
         )
 }
 

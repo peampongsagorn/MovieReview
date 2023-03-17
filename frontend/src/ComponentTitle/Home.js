@@ -17,6 +17,7 @@ let activeClassName = "nav-active"
             <h3>Home</h3>
         </ul>
     </nav>
+    
     <div className='containerHome' >
     <div class="flex-container-1">
     <div><NavLink to="/Romantic"><button class="button button4">Romantic</button></NavLink></div>

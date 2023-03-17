@@ -16,7 +16,7 @@ import TitanicComponent from '../ComponentDetail/TitanicComponent';
 // import DetailApi from '../ComponentDetail/DetailApi';
 
 //fantasy
-import Harry1Component from '../ComponentDetail/็Harry1Component'
+import Harry1Component from '../ComponentDetail/Harry1Component'
 import FantasticComponent from '../ComponentDetail/FantasticComponent';
 import AliceComponent from '../ComponentDetail/AliceComponent';
 import Harry7Component from '../ComponentDetail/Harry7Component';
@@ -32,6 +32,7 @@ import WhaleComponent from '../ComponentDetail/WhaleComponent';
 import twentythComponent from '../ComponentDetail/twentythComponent';
 import FandayComponent from '../ComponentDetail/FandayComponent';
 import JokerComponent from '../ComponentDetail/JokerComponent';
+
 function ComponentContent() {
 
 let activeClassName = "nav-active"

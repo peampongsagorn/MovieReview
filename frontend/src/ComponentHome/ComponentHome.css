@@ -2,7 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* background-color: rgb(10, 9, 9); */
+    background-color: rgb(10, 9, 9);
 }
 
 .nav-active{

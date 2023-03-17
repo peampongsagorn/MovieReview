@@ -3,6 +3,7 @@ const express = require('express')
 const router = express.Router()
 const Movie = require('./movie')
 const Comment = require('./comment')
+//const Movies = require('./database.json')
 
 router.get("/",(req,res)=>{
     res.write("hello g")

@@ -4,12 +4,12 @@ import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
 import './Detail.css'
 import '../ComponentTitle/componenttitle.css'
 
-function twentythComponent() {
+function sevenprajunban() {
   const [data, setData] = useState([]);
 
-  const movie_name = '20th century girl';
+  const movie_name = '7ประจัญบาน';
   useEffect(() => {
-    axios.get(`http://localhost:8080/Drama/${encodeURIComponent(movie_name)}`).then((response) => {
+    axios.get(`http://localhost:8080/Fantasy/${encodeURIComponent(movie_name)}`).then((response) => {
       console.log(response.data); // ตรวจสอบข้อมูลที่ได้รับกลับมาจาก API endpoint
       setData(response.data);
     }).catch((error) => {
@@ -40,4 +40,4 @@ function twentythComponent() {
   );
 }
 
-export default twentythComponent;
+export default sevenprajunban;

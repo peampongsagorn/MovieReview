@@ -4,7 +4,7 @@ import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
 import './Detail.css'
 import '../ComponentTitle/componenttitle.css'
 
-function twentythComponent.js() {
+function twentythComponent() {
   const [data, setData] = useState([]);
 
   const movie_name = '20th century girl';
@@ -40,4 +40,4 @@ function twentythComponent.js() {
   );
 }
 
-export default twentythComponent.js;
+export default twentythComponent;

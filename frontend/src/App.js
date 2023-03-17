@@ -32,8 +32,8 @@ function App() {
     <>
       {/* <ComponentNavbar/> */}
       {/* <ComponentRomantic/> */}
-      <ComponentHome/>
-      {/* <ComponentContent/> */}
+      {/* <ComponentHome/> */}
+      <ComponentContent/>
     </>
   );
 }

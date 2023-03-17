@@ -19,10 +19,10 @@ import LittleThingCallLoveComponent from '../ComponentDetail/LittleThingCallLove
 import OmgComponent from '../ComponentDetail/OmgComponent';
 
 //fantasy
-import Harry1Component from '../ComponentDetail/Harry1Component'
 import FantasticComponent from '../ComponentDetail/FantasticComponent';
 import AliceComponent from '../ComponentDetail/AliceComponent';
 import Harry7Component from '../ComponentDetail/Harry7Component';
+import Harry1Component from '../ComponentDetail/Harry1Component';
 
 //Kids
 import AddamComponent from '../ComponentDetail/AddamComponent';

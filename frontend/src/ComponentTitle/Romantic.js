@@ -20,8 +20,7 @@ function Romantic() {
 
     <div class="container">
 
-    <Link to="titanic">
-        <Outlet/>
+    <NavLink to="titanic">
         <div class="item">
             <div class="main">
                 <div class="img">
@@ -34,7 +33,7 @@ function Romantic() {
                 </div>
             </div>
         </div>
-    </Link>
+    </NavLink>
     
     <NavLink to="เธอกับฉันกับฉัน">
         <div class="item">

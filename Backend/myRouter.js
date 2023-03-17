@@ -16,10 +16,10 @@ router.get("/",(req,res)=>{
 //     res.end()
 // })
 
-router.get("/Kids/BigHero6",(req,res)=>{
-    res.write("hello g")
-    res.end()
-})
+// router.get("/Kids/BigHero6",(req,res)=>{
+//     res.write("hello g")
+//     res.end()
+// })
 
 router.get("/Romantic/:name",(req,res)=>{
     const movie_name = req.params.name

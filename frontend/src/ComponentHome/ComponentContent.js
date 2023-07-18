@@ -39,9 +39,13 @@ import JokerComponent from '../ComponentDetail/JokerComponent';
 //Comedy
 import HortaewtakComponent from '../ComponentDetail/HortaewtakComponent';
 import JumanjiComponent from '../ComponentDetail/JumanjiComponent';
-import sevenprajunban from '../ComponentDetail/sevenprajunban';
-import sevenprajunban2 from '../ComponentDetail/sevenprajunban2';
+import Sevenprajunban2Component from '../ComponentDetail/Sevenprajunban2Component';
+import SevenprajunbanComponent from '../ComponentDetail/Sevenprajunban2Component';
 
+import RedNoticeComponent from '../ComponentDetail/RedNoticeComponent';
+import FastandFerious9Component from '../ComponentDetail/FastandFerious9Component';
+import DieHardComponent from '../ComponentDetail/DieHardComponent';
+import JackReacherComponent from '../ComponentDetail/JackReacherComponent';
 function ComponentContent() {
 
 let activeClassName = "nav-active"
@@ -72,8 +76,8 @@ const [name, setName] = useState("");
           <Route path="/Comedy" element={<Comedy />}/>
           <Route path="/Comedy/หอเเต๋วเเตก" element={<HortaewtakComponent/>}/>
           <Route path="/Comedy/jumanji" element={<JumanjiComponent/>}/>
-          <Route path="/Comedy/7ประจัญบาน" element={<sevenprajunban/>}/>
-          <Route path="/Comedy/7ประจัญบาน2" element={<sevenprajunban2 />}/>
+          <Route path="/Comedy/7ประจัญบาน" element={<SevenprajunbanComponent/>}/>
+          <Route path="/Comedy/7ประจัญบาน2" element={<Sevenprajunban2Component />}/>
 
           <Route path="/Fantasy" element={<Fantasy />}/>
           <Route path="/Fantasy/Harry Potter กับศิลาอาถรรพ์" element={<Harry1Component/>}/>

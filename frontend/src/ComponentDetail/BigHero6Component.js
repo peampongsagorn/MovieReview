@@ -4,7 +4,7 @@ import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
 import './Detail.css'
 import '../ComponentTitle/componenttitle.css'
 
-function DespicableMeComponent() {
+function BigHero6Component() {
   const [data, setData] = useState([]);
 
   const movie_name = 'BigHero6';
